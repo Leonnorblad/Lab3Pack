@@ -6,13 +6,15 @@
 \title{Wiki_graph}
 \format{
 A \code{data.frame} of 18 rows and 3 colums.
-}
-\usage{
+
 \describe{ 
 \item{v1}{First set of vertices}
 \item{v2}{Second set of vertices}
 \item{w}{Distance between vertices}
  }
+}
+\usage{
+wiki_graph
 }
 \description{
 A graph containing vertices and distances between them. Could be used in the dijkstra algorithm.

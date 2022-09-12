@@ -22,7 +22,7 @@ dijkstra <-
 function(graph, init_node){
     
     # checks the input
-    if (init_node>max(graph$v1)|init_node<min(graph$v1) | # init_node is in grapth
+    if (init_node>max(graph$v1)|init_node<min(graph$v1) | # init_node is in graph
         !is.numeric(init_node)|  # init_node has to be a numeric value
         !is.data.frame(graph) |  # graph needs to be a data.frame
         any(!is.numeric(c(graph$v1, graph$v2, graph$w))) |  # "v1", "v2" and "w" has to be numeric

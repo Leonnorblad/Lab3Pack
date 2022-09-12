@@ -4,8 +4,6 @@
 #' 
 #' @format A \code{data.frame} of 18 rows and 3 colums.
 #' 
-#' @usage 
-#' 
 #' \describe{ 
 #' \item{v1}{First set of vertices}
 #' \item{v2}{Second set of vertices}
