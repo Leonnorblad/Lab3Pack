@@ -1,0 +1,11 @@
+Package: JLPack
+Type: Package
+Title: Euclidean & Dijkstra
+Version: 1.0
+Date: 2022-09-12
+Author: Leonard Persson Norblad & Jacob Sibanda
+Maintainer: Leonard Persson Norblad <leope744@student.liu.se> Jacob Sibanda <jacsi259@student.liu.se>
+Description: This package contains two algorithms, Euclidean and Dijkstra. Euclidean computes the greatest commun divisor and the Dijkstra finds the shortest paths between nodes in a graph. 
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.2.1
